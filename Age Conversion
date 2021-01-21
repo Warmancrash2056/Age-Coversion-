@@ -1,0 +1,18 @@
+my_age = int(input('What year were you born.'))
+# User will enter their age.
+
+year = int(input('Enter Year'))
+# User will enter the year to see what age they will be.
+
+name = input('What is your name.')
+
+print(f'{name} you will be {year-my_age} in the year {year}')
+
+
+Output:
+What year were you born. 1997
+Enter Year 2056
+What is your name. davaughn
+davaughn you will be 59 in the year 2056
+
+Process finished with exit code 0
